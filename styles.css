@@ -1,10 +1,9 @@
-/* Global Styles */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #0f6238;
 }
 
 header {
@@ -26,7 +25,7 @@ header p {
     margin: 10px 0;
 }
 
-/* Navigation Bar Styles */
+
 .navbar {
     background-color: #333;
     padding: 10px 0;
@@ -64,21 +63,27 @@ header p {
 }
 
 .navbar-links a:hover {
-    color: #4CAF50; /* Highlight on hover */
+    color: #4CAF50; 
 }
 
-/* Hero Section Styles */
+
 .hero {
-    background-image: url('hero-bg.jpg'); /* Replace with your hero image */
+    background-image: url('img.jpg'); 
     background-size: cover;
     background-position: center;
-    color: white;
+    color: rgb(11, 89, 24);
     padding: 100px 20px;
     text-align: center;
 }
 
 .hero h1 {
-    font-size: 48px;
+    font-size: 48px;  
+    background-color: rgb(170, 168, 168);
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 30px;
+    opacity: 0.8;
+    display: inline-block;
     margin-bottom: 20px;
     font-weight: bold;
 }
@@ -102,7 +107,7 @@ header p {
     background: #45a049;
 }
 
-/* Section Styles */
+
 .event-details, .speakers, .registration {
     background: white;
     padding: 20px;
@@ -121,7 +126,7 @@ h2 {
 
 p {
     font-size: 16px;
-    color: #333;
+    color: black;
     margin-bottom: 10px;
 }
 
@@ -136,7 +141,7 @@ ul li {
     color: #555;
 }
 
-/* Button Styles */
+
 button {
     background: #4CAF50;
     color: white;
@@ -156,7 +161,6 @@ button:hover {
     background: #45a049;
 }
 
-/* Footer Styles */
 footer {
     text-align: center;
     padding: 15px 0;
