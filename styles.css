@@ -124,10 +124,13 @@ h2 {
     margin-bottom: 15px;
 }
 
-p {
+header p {
     font-size: 16px;
-    color: black;
+    color: white;
     margin-bottom: 10px;
+}
+section .event-details p {
+    color: black;
 }
 
 ul {
